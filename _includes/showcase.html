@@ -1,0 +1,21 @@
+<section class="hero is-medium has-text-centered" id="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-white is-size-1 is-spaced is-uppercase has-text-weight-bold">
+        {{site.title}}
+      </h1>
+      <h3 class="subtitle has-text-white-bis is-size-6 is-uppercase has-text-weight-medium mt-3 mb-6">
+        {{site.description}}
+      </h3>
+      <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-bold">
+        <p>{{site.conference_date}}</p>
+        <p>{{site.conference_location}}</p>
+      </h3>
+      <hr>
+      <a href="{{ '/submission/' | relative_url }}"
+        class="button is-white is-outlined is-uppercase has-text-weight-semibold">Call for Papers</a>
+      <a href="{{ '/submission-en/' | relative_url }}"
+        class="button is-white is-outlined is-uppercase has-text-weight-semibold">English CFP</a>
+    </div>
+  </div>
+</section>

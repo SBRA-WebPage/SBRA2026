@@ -1,0 +1,8 @@
+<head>
+    {% include meta.html %}
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="shortcut icon"
+        href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ '/assets/images/sbra_logo_red.png' | relative_url }}{% endif %}"
+        type="image/x-icon">
+</head>
