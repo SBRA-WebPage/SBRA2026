@@ -1,0 +1,6 @@
+# URL of the Site
+url: 'http://localhost:4000'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: ''
+site-image: /assets/images/sbra_logo_red.png
+

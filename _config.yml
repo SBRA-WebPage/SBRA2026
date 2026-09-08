@@ -1,0 +1,86 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'https://sbra-webpage.github.io'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: '/SBRA2026'
+
+# Title of the Site
+title: SBRA2026
+# Description of the Site
+description: Symposium on Biometrics, Recognition and Authentication 2026
+conference_date: 2026年11月12日(木)-13日(金)
+conference_location: 草津温泉ホテルヴィレッジ
+# URL of Image of the Site
+site-image: /assets/images/sbra_logo_red.png
+# Keywords of the Site
+site-keywords: Conference, Biometrics
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: biox-sbra2026@mail.ieice.org
+facebook_username: 
+twitter_username: 
+instagram_username: 
+linkedin_username: 
+github_username: 
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
+
+# Disqus
+disqus-shortname: 
+
+# Name of the Author
+author-name: SBRA2026実行委員会
+# URL for the Image of the Author
+author-image: 
+# 60 Words About the Author
+author-about: 主催：電子情報通信学会バイオメトリクス研究専門委員会
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url:
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+    - jekyll-sitemap
+#   - jekyll-admin
+#   - jekyll-feed
+
+# Permalink
+# permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  - scope:
+      path: ''
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
